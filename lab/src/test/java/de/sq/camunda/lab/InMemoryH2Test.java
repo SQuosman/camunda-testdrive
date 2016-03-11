@@ -12,7 +12,7 @@ import static org.camunda.bpm.engine.test.assertions.ProcessEngineTests.*;
 import static org.junit.Assert.*;
 
 import org.camunda.bpm.consulting.process_test_coverage.ProcessTestCoverage;
-
+//change made
 /**
  * Test case starting an in-memory database-backed Process Engine.
  */
