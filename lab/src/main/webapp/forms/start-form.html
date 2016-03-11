@@ -10,11 +10,16 @@
   <div class="control-group">
     <label class="control-label">Your Name</label>
     <div class="controls">
-      <input type="text" 
-             cam-variable-name="name"
-             cam-variable-type="String"
-             required
-             class="form-control" />
+		<input form-field type="string" name="UserName" />
+    </div>
+    
+        <label class="control-label">Tweet</label>
+    <div class="controls">
+		<input form-field 
+		type="string" 
+		cam-variable-name="content" 
+		cam-variable-type="String" 
+		name="content" />
     </div>
   </div>
 
